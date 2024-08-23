@@ -1,4 +1,4 @@
-// routes/userRoutes.js
+
 const express = require('express');
 const { getUsers, getUserById } = require('../controllers/userController');
 const authMiddleware = require('../middlewares/authMiddleware');
